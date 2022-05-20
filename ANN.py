@@ -27,8 +27,8 @@ print(X_train.shape, X_val.shape, X_test.shape, Y_train.shape, Y_val.shape, Y_te
 
 #Initializes the neural network model
 model = Sequential([
-    Dense(48, activation='relu', input_shape=(9,)),
-    Dense(48, activation='relu'),
+    Dense(32, activation='relu', input_shape=(9,)),
+    Dense(32, activation='relu'),
     Dense(1, activation='sigmoid'),
 ])
 
